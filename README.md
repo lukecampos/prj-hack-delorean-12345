@@ -1,5 +1,19 @@
-# prj-hack-delorean-12345
-prj-hack-delorean-12345
+# prj-hack-delorean-team
+Projeto Zero Carbon 
+--------
+Objetivo do Projeto
+- Gerar sustentabilidade e ajudar personas que gostariam de fazer sua parte no mundo,
+- comutando sua pegada de carbono mediante o open finance e empresas que apoiam a causa.
+
+- Criamos um App que é capaz de ter acesso aos dados financeiros da persona e assim através das transações bancárias
+- categorizar e presumir a pegada de carbono gerando um valor aproximado de token de carbono.
+
+- O usuário que efetuar sua quitação do crédito de carbono que ele gerou 
+- obtem descontos em empresas parceiras que pactuam com a causa 
+- EX: -3% em taxas de empréstimos de CP, cashback em produtos ,etc.
+
+
+
 
 
 ### Tratamento dos dados 
