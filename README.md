@@ -38,16 +38,16 @@ schemas :
 
 *Realizamos a criação no redshift DDL.(DDL-redshift.sql)
 Configurações:
-               -Leste dos EUA (Norte da Virgínia)us-east-1
-               -cluster:squad28
-               -database:delorean
-               -user:srv.delorean
+               - Leste dos EUA (Norte da Virgínia)us-east-1
+               - cluster:squad28
+               - database:delorean
+               - user:srv.delorean
 
 schemas:
-        -account
-        -credit_card
-        -customers
-        -prod ->(view_credit_carbon.sql) 
+        - account
+        - credit_card
+        - customers
+        - prod ->(view_credit_carbon.sql) 
 
 
 *Foi realizado toda análise em cima das tabelas gerando assim a view para produção view_credit_carbon.sql 
