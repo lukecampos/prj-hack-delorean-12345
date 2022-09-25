@@ -1,16 +1,15 @@
 # prj-hack-delorean-team
 Projeto Zero Carbon 
 --------
-Objetivo do Projeto
+### Objetivo do Projeto
 - Gerar sustentabilidade e ajudar personas que gostariam de fazer sua parte no mundo,
-- comutando sua pegada de carbono mediante o open finance e empresas que apoiam a causa.
+comutando sua pegada de carbono mediante o open finance e empresas que apoiam a causa.
 
 - Criamos um App que é capaz de ter acesso aos dados financeiros da persona e assim através das transações bancárias
-- categorizar e presumir a pegada de carbono gerando um valor aproximado de token de carbono.
+ categorizar e presumir a pegada de carbono gerando um valor aproximado de token de carbono.
 
-- O usuário que efetuar sua quitação do crédito de carbono que ele gerou 
-- obtem descontos em empresas parceiras que pactuam com a causa 
-- EX: -3% em taxas de empréstimos de CP, cashback em produtos ,etc.
+- O usuário que efetuar sua quitação do crédito de carbono que ele gerou descontos em empresas parceiras que pactuam com a causa 
+ EX: -3% em taxas de empréstimos de CP, cashback em produtos ,etc.
 
 
 
@@ -19,7 +18,7 @@ Objetivo do Projeto
 ### Tratamento dos dados 
 
 fizemos o upload dos dados off-line
-arquivos em json realizamos um pré processamento localmente em jupyternotebook para enviar para o bucket s3
+arquivos em json realizamos um pré processamento localmente em jupyter notebook para enviar para o bucket s3
 
 info: servidor [Leste dos EUA (Norte da Virgínia)us-east-1]
 
@@ -28,27 +27,27 @@ info: servidor [Leste dos EUA (Norte da Virgínia)us-east-1]
 após o upload para o bucket S3 s3://buckets/squad28-delorean/fase2_prod_csv/ 
 
 schemas : 
-          account/
-          credit_card/
-          customers/
+          -account/
+          -credit_card/
+          -customers/
           
           
 *Após isso efetuamos o copy dos dados S3<->Redshift materializando para melhor performance (s3_to_redshift.sql).          
           
-##Redshift
+##### Redshift
 
 *Realizamos a criação no redshift DDL.(DDL-redshift.sql)
 Configurações:
-               Leste dos EUA (Norte da Virgínia)us-east-1
-               cluster:squad28
-               database:delorean
-               user:srv.delorean
+               -Leste dos EUA (Norte da Virgínia)us-east-1
+               -cluster:squad28
+               -database:delorean
+               -user:srv.delorean
 
 schemas:
-        account
-        credit_card
-        customers
-        prod ->(view_credit_carbon.sql) 
+        -account
+        -credit_card
+        -customers
+        -prod ->(view_credit_carbon.sql) 
 
 
 *Foi realizado toda análise em cima das tabelas gerando assim a view para produção view_credit_carbon.sql 
