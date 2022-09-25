@@ -38,10 +38,10 @@ schemas :
 
 *Realizamos a criação no redshift DDL.(DDL-redshift.sql)
 Configurações:
-               -Leste dos EUA (Norte da Virgínia)us-east-1
-               -cluster:squad28
-               -database:delorean
-               -user:srv.delorean
+-Leste dos EUA (Norte da Virgínia)us-east-1
+-cluster:squad28
+-database:delorean
+-user:srv.delorean
 
 schemas:
         - account
