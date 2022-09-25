@@ -26,10 +26,10 @@ info: servidor [Leste dos EUA (Norte da Virgínia)us-east-1]
 
 após o upload para o bucket S3 s3://buckets/squad28-delorean/fase2_prod_csv/ 
 
-schemas : 
-          -account/
-          -credit_card/
-          -customers/
+#### schemas : 
+          -account /
+          -credit_card /
+          -customers /
           
           
 *Após isso efetuamos o copy dos dados S3<->Redshift materializando para melhor performance (s3_to_redshift.sql).          
