@@ -40,4 +40,5 @@ schemas:
 *Foi realizado toda análise em cima das tabelas gerando assim a view para produção view_credit_carbon.sql 
 com o calculo fictício que baseado nas transações bancárias e na lista pré selecionada de gastos que vão contra o ESG
 geramos os valores aproximados de carbono que o usuário gastou mensalmente.
+![image](https://user-images.githubusercontent.com/113641129/192149714-a1c86f44-aab0-4c92-8c63-ca477e6a0ab4.png)
 
