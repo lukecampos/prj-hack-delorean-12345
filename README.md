@@ -57,3 +57,9 @@ com o calculo fictício que baseado nas transações bancárias e na lista pré 
 geramos os valores aproximados de carbono que o usuário gastou mensalmente.
 ![image](https://user-images.githubusercontent.com/113641129/192149714-a1c86f44-aab0-4c92-8c63-ca477e6a0ab4.png)
 
+
+### Lambda:
+
+ usamos as duas libs
+ - import psycopg2 -- para conexão ao banco de dados redshift  /
+ - import simplejson -- para geração de json enviar request ao firebase /
