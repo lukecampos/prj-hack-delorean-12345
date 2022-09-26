@@ -39,11 +39,11 @@ após o upload para o bucket S3 s3://buckets/squad28-delorean/fase2_prod_csv/
 *Realizamos a criação no redshift DDL.(DDL-redshift.sql)
 Configurações:
 
- *Leste dos EUA (Norte da Virgínia)us-east-1
- *cluster:squad28
- *database:delorean
- *user:srv.delorean
- *pass:Delorean_Squad28
+ - Leste dos EUA (Norte da Virgínia)us-east-1 /
+ - cluster:squad28 /
+ - database:delorean /
+ - user:srv.delorean /
+ - pass:Delorean_Squad28 /
 
 ### Schemas:
         - account /
