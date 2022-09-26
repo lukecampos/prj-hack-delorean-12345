@@ -1,5 +1,5 @@
 # prj-hack-delorean-team
-Projeto Zero Carbon 
+Projeto Zero Carbon - Open Finance Sustentável
 --------
 ### Objetivo do Projeto
 - Gerar sustentabilidade e ajudar personas que gostariam de fazer sua parte no mundo,
