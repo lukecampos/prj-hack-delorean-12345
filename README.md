@@ -63,3 +63,5 @@ geramos os valores aproximados de carbono que o usuário gastou mensalmente.
  usamos as duas libs
  - import psycopg2 -- para conexão ao banco de dados redshift  /
  - import simplejson -- para geração de json enviar request ao firebase /
+
+#### End point : https://oywapvha4lozwqxg62bic6cora0nrjwb.lambda-url.us-east-1.on.aws/
