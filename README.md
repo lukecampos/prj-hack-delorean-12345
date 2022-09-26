@@ -26,7 +26,7 @@ info: servidor [Leste dos EUA (Norte da Virgínia)us-east-1]
 
 após o upload para o bucket S3 s3://buckets/squad28-delorean/fase2_prod_csv/ 
 
-#### schemas : 
+#### Bucket : 
           -account /
           -credit_card /
           -customers /
@@ -38,16 +38,18 @@ após o upload para o bucket S3 s3://buckets/squad28-delorean/fase2_prod_csv/
 
 *Realizamos a criação no redshift DDL.(DDL-redshift.sql)
 Configurações:
--Leste dos EUA (Norte da Virgínia)us-east-1
--cluster:squad28
--database:delorean
--user:srv.delorean
 
-schemas:
-        - account
-        - credit_card
-        - customers
-        - prod ->(view_credit_carbon.sql) 
+ *Leste dos EUA (Norte da Virgínia)us-east-1
+ *cluster:squad28
+ *database:delorean
+ *user:srv.delorean
+ *pass:Delorean_Squad28
+
+### Schemas:
+        - account /
+        - credit_card /
+        - customers /
+        - prod / ->(view_credit_carbon.sql) 
 
 
 *Foi realizado toda análise em cima das tabelas gerando assim a view para produção view_credit_carbon.sql 
